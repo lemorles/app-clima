@@ -1,0 +1,42 @@
+.nav {
+  color: #dadff5;
+  margin: 0 auto 20px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #dadff5;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #ff4c4c;
+}
+
+.selected {
+  color: #ff4c4c;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+}

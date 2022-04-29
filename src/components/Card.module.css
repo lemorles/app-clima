@@ -1,0 +1,69 @@
+.cardContainer {
+  border-radius: 10px;
+  width: 300px;
+  margin: 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 41, 158, 0.35);
+  color: #dadff5;
+  box-shadow: 0 9px 24px 0 rgba(0, 41, 158, 0.3);
+}
+
+.cardTitle {
+  font-size: 20px;
+  font-weight: bold;
+  order: 5;
+  margin-left: 25px;
+}
+
+.cardDescription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardDescription p {
+  margin: 0;
+  margin-left: 25px;
+}
+
+.cardDescription p span {
+  display: block;
+}
+
+.max {
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.max span:nth-child(1),
+.min span:nth-child(1) {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.min {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.buttonClose {
+  align-self: flex-end;
+  margin: 10px 10px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(0, 41, 158, 0.5);
+  color: #dadff5;
+  height: 30px;
+  width: 30px;
+  order: -2;
+  cursor: pointer;
+}
+
+.buttonClose:hover {
+  opacity: 0.8;
+}
