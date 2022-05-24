@@ -2,6 +2,11 @@
 
 Weather App es una SPA (Single Page Application) que consume información de una API (OpenWeatherApp) y muestra el clima de los lugares elegidos por el usuario. 
 
+## Screenshot
+
+</br>
+<img src='https://res.cloudinary.com/puppy-point/image/upload/v1653413389/projects/weather-app_j88as2.png' alt='weather ap' />
+
 ## Features
 
 - Buscar ciudad: El usuario puede buscar la ciudad deseada en el input para ver el clima de dicha ciudad.
